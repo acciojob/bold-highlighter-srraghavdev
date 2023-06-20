@@ -1,5 +1,6 @@
 function highlight() {
-	const children= document.getElementsByTagName("BODY")[0].children
+	const children= document.getElementsByTagName("body")[0].children
+	console.log(children)
 	let pt = children[4]
 	let strong = pt.children
 	for(let i=0;i<strong.length;i++){
@@ -9,7 +10,7 @@ function highlight() {
 
 
 function return_normal() {
-    const children= document.getElementsByTagName("BODY")[0].children
+    const children= document.getElementsByTagName("body")[0].children
 	let pt = children[4]
 	let strong = pt.children
 	for(let i=0;i<strong.length;i++){
