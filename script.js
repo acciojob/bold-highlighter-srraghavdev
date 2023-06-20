@@ -1,6 +1,5 @@
 function highlight() {
 	const c= document.body.children
-	console.log(c[4].value)
 	var strong = c[4].children
 	 for(let i=0;i<strong.length;i++){
 		strong[i].style.color="green"
