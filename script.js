@@ -1,6 +1,6 @@
 function highlight() {
 	const c= document.body.children
-	let strong = c[4].children
+	var strong = c[4].children
 	strong.value='strong'
 	for(let i=0;i<strong.length;i++){
 		strong[i].style.color="green"
@@ -9,7 +9,7 @@ function highlight() {
 
 function return_normal() {
     const c= document.body.children
-	let strong = c[4].children
+	var strong = c[4].children
 	strong.value='strong'
 	for(let i=0;i<strong.length;i++){
 		strong[i].style.color="black"
