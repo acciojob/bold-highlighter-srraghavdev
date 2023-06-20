@@ -1,17 +1,18 @@
 function highlight() {
 	const c= document.body.children
+	console.log(c[4].value)
 	var strong = c[4].children
-	strong.value='strong'
-	for(let i=0;i<strong.length;i++){
+	 for(let i=0;i<strong.length;i++){
 		strong[i].style.color="green"
 	}
+	return 
 }
 
 function return_normal() {
     const c= document.body.children
 	var strong = c[4].children
-	strong.value='strong'
 	for(let i=0;i<strong.length;i++){
 		strong[i].style.color="black"
-	}   
+	}
+	return 
 }
