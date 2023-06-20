@@ -1,7 +1,10 @@
 function highlight() {
-    //Write your code here
-
-
+	const children= document.body.children
+	let pt = children[1]
+	let strong = pt.children
+	for(let i=0;i<strong.length;i++){
+		children[i].style.color="green"
+	}
 }
 
 
