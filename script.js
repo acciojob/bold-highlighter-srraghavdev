@@ -14,7 +14,5 @@ function return_normal() {
 	let strong = pt.children
 	for(let i=0;i<strong.length;i++){
 		strong[i].style.color="black"
-	}
-
-    
+	}   
 }
